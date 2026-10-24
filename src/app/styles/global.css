@@ -1,0 +1,18 @@
+@layer theme, base, mantine, components, utilities;
+
+@import 'tailwindcss' important;
+@import '@mantine/core/styles.layer.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
