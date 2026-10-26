@@ -10,7 +10,8 @@
     "generate-routes": "tsr generate",
     "build": "vite build",
     "preview": "vite preview",
-    "pretty": "prettier --write . && eslint --fix"
+    "pretty": "prettier --write . && eslint --fix",
+    "generate-api": "npx apicraft generate"
   },
   "dependencies": {
     "@mantine/core": "^9.7.3",
@@ -27,6 +28,7 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
+    "@siberiacancode/apicraft": "^1.12.1",
     "@siberiacancode/eslint": "^2.18.1",
     "@siberiacancode/prettier": "^1.9.0",
     "@tanstack/devtools-vite": "0.8.5",
